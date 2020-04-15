@@ -1,0 +1,16 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <a href="clients"><span class="oi oi-person" aria-hidden="true"></span>Client Selector</a>
+        <a href="account"><span class="oi oi-cog" aria-hidden="true"></span>Account Settings</a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
